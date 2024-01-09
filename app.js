@@ -26,7 +26,7 @@ arrFn(50, 60);
 
 // Immediately Invoked function expression IIFE
 
-(function() {
+(function () {
     console.log("IIFE");
 })("asasasas")
 
@@ -44,3 +44,8 @@ function highOrderFn(a, b) {
 }
 
 highOrderFn(randomNumber(1, 100), randomNumber(1, 20))
+
+const number = 10;
+
+let result = number > 10 ? console.log("Xato") : console.log("To'g'ri"); // Ternary operator
+const arr = [1, "str", null, true, {}, undefined, 1n];
